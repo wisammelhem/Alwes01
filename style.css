@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Cairo", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    height: 3000px;
+}
+/*start header style*/
+
+header{
+    display: flex;
+    background-color:darkblue;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+   padding: 10px 150px;
+}
+.logo{
+    color: red;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav a{
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+nav a:hover{
+    color:orange;
+    font-weight: 900;
+}
+/*End header style*/
+
+.content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: end;
+    background-image: url('https://cdn.analyticsvidhya.com/wp-content/uploads/2023/06/ai-gaming.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+section {
+    padding: 100px 150px;
+}
+.content h2{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.content h2 span {
+    color: rgb(246, 7, 7);
+}
+.content h3{
+color: white;
+font-size: 25px;
+font-weight: bold;
+
+}
+.content h4{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.contact-me{
+    display: inline-block;
+    color: white;
+    background-color: darkblue;
+    padding: 5px 15px;
+    border-radius: 5px 15px;
+    text-decoration-line: none;
+    margin-bottom: 15px;
+    font-weight: bold;
+    transition: 0.5s ease;
+
+}
+.contact-me:hover{
+    transform: scale(1.1);
+    background-color: rgb(212, 107, 107);
+}
+.social a{
+    color: white;
+    font-size: 25px;
+    padding-right: 20px;
+}
+/*//////////////////////////////*/
+.our-games {
+    text-align: center;
+    background-color:rgb(219, 219, 219);
+}
+.our-games h2{
+    color: red;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.our-games p{
+    color: darkblue;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.Games{
+    display: flex;
+}
+.game {
+    background-color:white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(185, 181, 181);
+    cursor: pointer;
+    transition: all 0.5s ease;
+   }
+.game:hover{
+    color:rgb(250, 150, 150) ;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px red;
+    margin-right: 5px;
+    transform: scaleX(1.1);
+}
+
+
+   .game h3{
+font-size: 25px;
+   }
+
+.icon{
+    color: red;
+    font-size: 40px;
+}
+.game-imge{
+    text-align: center;
+    
+}
+.game-imge h2{
+    color: red;
+    font-size: 35px;
+}
+.game-imge p{
+    color: darkblue;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.photos{
+    display: flex;
+}
+.photo{
+    padding: 10px;
+    margin: 10px;
+}
+.photos img{
+    width: 100%;
+}
+.contact-us{
+    background-color: rgb(193,191,191);
+    text-align: center;
+}
+.contact-us h2{
+    color: red;
+    font-size: 35px;
+}
+.contact-us p{
+    color: darkblue;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.Contact-area{
+    width: 60%;
+    background-color: darkblue;
+    color: white;
+    margin: 20px auto;
+    padding: 35px;
+    border:1px solid red ;
+    border-radius: 10px;
+}
+.form-input input{
+    width: 50%;
+    height: 40px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+.form-input textarea{
+    width: 50%;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid red;
+
+}
+.send{
+    padding: 5px 25px;
+    background-color: white;
+    color: darkblue;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+.send:hover{
+    background-color: red;
+}
+footer{
+    border-top: 5px solid red;
+    background-color: darkblue;
+    padding-top: 50px;
+    text-align: center;
+}
+footer p{
+    color: red;
+    font-size: 20px;
+}
